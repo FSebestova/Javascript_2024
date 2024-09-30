@@ -10,3 +10,10 @@ document.body.innerHTML += "<p>" + "Celkova částka: "  + prijem_divadla_1  + "
 
 document.body.innerHTML += "<p>" + "Celkova částka se slevou: "  + prijem_divadla_2 + "</p>"
 
+
+
+
+var kostka = Math.floor(Math.random() * 6) + 1
+
+document.body.innerHTML += "<p>" + "hod kostkou: "  + kostka + "</p>"
+
